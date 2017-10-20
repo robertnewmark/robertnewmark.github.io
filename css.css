@@ -54,36 +54,41 @@
 		display:block;
 	}
 }
+.navbar-default
+{
+	background-image:linear-gradient(to bottom, #489ab8, #62b4d2)
+}
 body
 {
-	background:#272b30;
-	background:-webkit-linear-gradient(#272b30,#76787a);
-	background:-o-linear-gradient(#272b30,#76787a);
-	background:-moz-linear-gradient(#272b30,#76787a);
-	background:linear-gradient(#272b30,#76787a);
+	background:white;
+	background:-webkit-linear-gradient(#bba3d0,white);
+	background:-o-linear-gradient(#bba3d0,white);
+	background:-moz-linear-gradient(#bba3d0,white);
+	background:linear-gradient(#bba3d0,white);
+	font-family: 'Raleway', sans-serif;
 }
 footer
 {
-	background:#272b30;
-	background:-webkit-linear-gradient(#76787a,#272b30);
-	background:-o-linear-gradient(#76787a,#272b30);
-	background:-moz-linear-gradient(#76787a,#272b30);
-	background:linear-gradient(#76787a,#272b30);
+	background:white;
+	background:-webkit-linear-gradient(white,#bba3d0);
+	background:-o-linear-gradient(white,#bba3d0);
+	background:-moz-linear-gradient(white,#bba3d0);
+	background:linear-gradient(white,#bba3d0);
 }
 img
 {
 	width: 100%;
 	height: 100%;
-	max-height: 385px;
 	max-width: 317px;
 	object-fit: contain;
 	box-shadow:0 5px 15px rgba(0, 0, 0, 0.5);
-	border-radius: 60px;
+	border-radius: 40px;
 	margin:auto;
 }
 #name
 {
 	margin-top:10px;
+	color:white;
 }
 .navbar-header
 {
@@ -96,6 +101,7 @@ img
 .jumbotron
 {
 	margin:auto;
+	max-width:1441px; 
 	opacity: .9;
 	filter: alpha(opacity=90);
 	-moz-opacity:.9;
@@ -112,17 +118,32 @@ img
 {
 	padding-bottom:10px;
 }
-#page1
+#text
 {
-	background-image: url(../images/castle.png);
-	background-repeat: no-repeat;
-	background-position:center bottom;
-	background-attachment: fixed;
+	font-size: 14px;
 }
-#page3
+th
 {
-	background-image: url(../images/str.png);
-	background-repeat: no-repeat;
-	background-position:center;
-	background-attachment: fixed;
+	text-align: center;
+	font-size:21px;
+}
+.table tbody tr td
+{
+	text-align: center;
+	border-top: 1px solid #fcfbfd;
+}
+.table
+{
+	background-color: #fcfbfd;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+	border-radius:6px;
+	font-size: 15px;
+}
+.reshead
+{
+	text-align: center;
+}
+#work
+{
+	padding: 10px;
 }
