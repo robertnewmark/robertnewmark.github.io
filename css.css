@@ -54,9 +54,13 @@
 		display:block;
 	}
 }
-.navbar-default
+.navbar
 {
-	background-image:linear-gradient(to bottom, #489ab8, #62b4d2)
+	background-image:linear-gradient(to bottom, #489ab8, #81c3db );
+}
+.ml-auto
+{
+	text-align: center;
 }
 body
 {
@@ -84,19 +88,6 @@ img
 	box-shadow:0 5px 15px rgba(0, 0, 0, 0.5);
 	border-radius: 40px;
 	margin:auto;
-}
-#name
-{
-	margin-top:10px;
-	color:white;
-}
-.navbar-header
-{
-	height:50px;
-}
-.navbar-right
-{
-	font-size:20px;
 }
 .jumbotron
 {
