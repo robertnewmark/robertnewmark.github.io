@@ -56,7 +56,7 @@
 }
 .navbar
 {
-	background-image:linear-gradient(to bottom, #007EA7, #007EA7 15%, #80CED7);
+	background-image:linear-gradient(to bottom, #007EA7, #007EA7 15%, #80CED7D1);
 }
 .ml-auto
 {
